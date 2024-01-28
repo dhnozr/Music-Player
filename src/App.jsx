@@ -28,11 +28,31 @@ function App() {
     let currentIndex = songs.findIndex(song => song.id === currentSong.id);
     const newIndex = (currentIndex + 1) % songs.length;
     setCurrentSong(songs[newIndex]);
+    activeLibraryHandler(songs[newIndex]);
     if (isPlaying) {
       setTimeout(() => {
         audioRef.current.play();
       }, 0);
     }
+  };
+
+  const activeLibraryHandler = nextPrev => {
+    const newSongs = songs.map(state => {
+      if (state.id === nextPrev.id) {
+        return {
+          ...state,
+          active: true,
+        };
+      } else {
+        return {
+          ...state,
+          active: false,
+        };
+      }
+    });
+
+    setSongs(newSongs);
+    if (isPlaying) audioRef.current.play();
   };
 
   const timeUpdateHandler = e => {
