@@ -16,6 +16,7 @@ export const Library = ({ songs, currentSong, setCurrentSong, audioRef, isPlayin
             audioRef={audioRef}
             isPlaying={isPlaying}
             setSongs={setSongs}
+            id={currentSong.id}
           />
         ))}
       </div>
