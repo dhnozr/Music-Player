@@ -56,7 +56,6 @@ export const Player = ({
       if ((currentIndex - 1) % songs.length === -1) {
         await setCurrentSong(songs[songs.length - 1]);
         activeLibraryHandler(songs[songs.length - 1]);
-
         if (isPlaying) audioRef.current.play();
         return;
       }
