@@ -3,8 +3,9 @@ import React from 'react';
 export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, setSongs, id }) => {
   // handler
   const songSelectHandler = async () => {
-    const selectedSong = songs.filter(state => state.id === id);
+    const selectedSong = songs.filter(state => state.id === song.id);
     await setCurrentSong(selectedSong[0]);
+    console.log(selectedSong);
 
     const newSongs = songs.map(state => {
       if (state.id === song.id) {
@@ -19,9 +20,8 @@ export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, 
         };
       }
     });
+    setSongs(newSongs);
     if (isPlaying) audioRef.current.play();
-
-    await setSongs(newSongs);
   };
   //
 
