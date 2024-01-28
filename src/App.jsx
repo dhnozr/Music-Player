@@ -21,15 +21,18 @@ function App() {
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
-  const valumeRef = useRef(0.5);
 
   //
 
-  const songEndedHandler = async () => {
+  const songEndedHandler = () => {
     let currentIndex = songs.findIndex(song => song.id === currentSong.id);
-
-    setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-    if (isPlaying) audioRef.current.play();
+    const newIndex = (currentIndex + 1) % songs.length;
+    setCurrentSong(songs[newIndex]);
+    if (isPlaying) {
+      setTimeout(() => {
+        audioRef.current.play();
+      }, 0);
+    }
   };
 
   const timeUpdateHandler = e => {
