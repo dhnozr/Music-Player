@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 768px) {
   .song-container {
+    min-height: 55vh;
     img {
       width: 60%;
     }
