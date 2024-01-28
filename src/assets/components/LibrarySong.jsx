@@ -4,7 +4,8 @@ export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, 
   // handler
 
   const songSelectHandler = async () => {
-    await setCurrentSong(song);
+    const selectedSong = songs.filter(state => state.id === song.id);
+    await setCurrentSong(selectedSong[0]);
 
     const newSongs = songs.map(state => {
       if (state.id === song.id) {
@@ -21,7 +22,7 @@ export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, 
     });
     if (isPlaying) audioRef.current.play();
 
-    setSongs(newSongs);
+    await setSongs(newSongs);
   };
   //
 
