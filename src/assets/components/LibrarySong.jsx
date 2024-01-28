@@ -1,10 +1,9 @@
 import React from 'react';
 
-export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, setSongs }) => {
+export const LibrarySong = ({ song, songs, setCurrentSong, audioRef, isPlaying, setSongs, id }) => {
   // handler
-
   const songSelectHandler = async () => {
-    const selectedSong = songs.filter(state => state.id === song.id);
+    const selectedSong = songs.filter(state => state.id === id);
     await setCurrentSong(selectedSong[0]);
 
     const newSongs = songs.map(state => {
