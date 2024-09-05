@@ -4,7 +4,7 @@ function chillHop() {
   return [
     {
       name: 'Traveling Through Time',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/faa452681fe33146c42a1b422fdf7cd7fd082637-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/6453/squarefaa452681fe33146c42a1b422fdf7cd7fd082637.jpg',
       artist: 'xander.',
       color: ['#B6541B', '#5A3F5E'],
       audio: 'https://stream.chillhop.com/mp3/9385',
@@ -13,7 +13,7 @@ function chillHop() {
     },
     {
       name: 'Vers le Ciel',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/10/38731803e8cbc15c8d6c92ce7f3137c4b2489362-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/68370/square38731803e8cbc15c8d6c92ce7f3137c4b2489362.jpg',
       artist: ' Bao, Venuz Beats, Mauricesax ',
       color: ['#FAAA83', '#99354F'],
       audio: 'https://stream.chillhop.com/mp3/69645',
@@ -22,7 +22,7 @@ function chillHop() {
     },
     {
       name: 'Bloom',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/07/4a08568d9bf1df419e1baeac2d73e8dd6c517473-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/73119/squarefaa3720e3ef276d744bf371d8a0d66cb24746862.jpg',
       artist: ' Leavv, Midan ',
       color: ['#6A6540', '#C2B8AE'],
       audio: 'https://stream.chillhop.com/mp3/64092',
@@ -31,7 +31,7 @@ function chillHop() {
     },
     {
       name: 'Late Night Drive',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/06/9180a7fabdc07fe2e221bb26bdd477cb66f6b69e-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/60878/square9180a7fabdc07fe2e221bb26bdd477cb66f6b69e.jpg',
       artist: ' C Y G N ',
       color: ['#C7291E', '#AD792D'],
       audio: 'https://stream.chillhop.com/mp3/60615',
@@ -40,7 +40,7 @@ function chillHop() {
     },
     {
       name: 'Feeling Lost',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/6816/squareff35dede32321a8aa0953809812941bcf8a6bd35.jpg',
       artist: 'Swørn',
       color: ['#D47283', '#BD3F76'],
       audio: 'https://stream.chillhop.com/mp3/9217',
@@ -49,7 +49,7 @@ function chillHop() {
     },
     {
       name: 'Soulsounds',
-      cover: 'https://chillhop.com/wp-content/uploads/2021/11/4c9682ee612a3b8ef51de286c49b5489408e9257-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/27672/square4c9682ee612a3b8ef51de286c49b5489408e9257.jpg',
       artist: 'Parkbench Epiphany',
       color: ['#E1676E', '#4B6270'],
       audio: 'https://stream.chillhop.com/mp3/27500',
@@ -58,7 +58,7 @@ function chillHop() {
     },
     {
       name: 'Looking In',
-      cover: 'https://chillhop.com/wp-content/uploads/2021/08/af3ce13ad39d38057f00144f8a7c295877ccfec1-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/24508/squareaf3ce13ad39d38057f00144f8a7c295877ccfec1.jpg',
       artist: ' Smile High, Teddy Roxpin ',
       color: ['#458A92', '#D96864'],
       audio: 'https://stream.chillhop.com/mp3/23335',
@@ -67,7 +67,7 @@ function chillHop() {
     },
     {
       name: 'Hereafter',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/11908/squaref78c39b4bb6313ddd0354bef896c591bfb490ff8.jpg',
       artist: 'Makzo',
       color: ['#F8BD5F', '#325C92'],
       audio: 'https://stream.chillhop.com/mp3/11770',
@@ -76,7 +76,7 @@ function chillHop() {
     },
     {
       name: `Tsuki's Tears`,
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/24d75baebd16d287703d481b4cc77f6c0b5159c7-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/3533/square24d75baebd16d287703d481b4cc77f6c0b5159c7.jpg',
       artist: 'Ward Wills',
       color: ['#063468', '#417197'],
       audio: 'https://stream.chillhop.com/mp3/9014',
@@ -85,7 +85,7 @@ function chillHop() {
     },
     {
       name: 'Canary Forest',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/10010/square0255e8b8c74c90d4a27c594b3452b2daafae608d.jpg',
       artist: ' Aso, Middle School, Aviino ',
       color: ['#246B63', '#08373F'],
       audio: 'https://stream.chillhop.com/mp3/10075',
@@ -94,7 +94,7 @@ function chillHop() {
     },
     {
       name: 'Never Ending',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/01/63d2d2cdabbc5df023603b5f47b2fb97963cb537-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/9880/square63d2d2cdabbc5df023603b5f47b2fb97963cb537.jpg',
       artist: ' Sitting Duck, squeeda ',
       color: ['#67785F', '#64978E'],
       audio: 'https://stream.chillhop.com/mp3/9652',
@@ -103,7 +103,7 @@ function chillHop() {
     },
     {
       name: 'Sundew',
-      cover: 'https://chillhop.com/wp-content/uploads/2023/09/6263175f6334ac348613790b863794010f2a9524-1024x1024.jpg',
+      cover: 'https://cms.chillhop.com/media/9797/square7ba352cafecae63aa3f09a52e125ea615d2c1f9b.jpg',
       artist: ' Delayde, Webmoms ',
       color: ['#F6A2E6', '#4361AB'],
       audio: 'https://stream.chillhop.com/mp3/7967',
