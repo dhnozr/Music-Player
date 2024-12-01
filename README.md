@@ -1,6 +1,8 @@
 # React Music Player
 
 Welcome to the React Music Player - a delightful and engaging music player application designed for fun and relaxation. Built using React, this application stands out with its sleek and user-friendly interface, offering a curated playlist of chillhop music. Ideal for those who enjoy a musical backdrop in their daily routine.
+### Live
+https://music-player-dhnozr.netlify.app/
 
 ![gif](/public/music.gif)
 
